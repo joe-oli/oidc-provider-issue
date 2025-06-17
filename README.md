@@ -51,6 +51,7 @@ iss: http://localhost:4999
 - HTTP: 400 Bad Request.
 
 - Server logs
+```text
 [OIDC] POST login received { uid: 'Ui5O6DpcvgSPgp-O0D8KYq-ULf-3zxDq5v4GiUdhm-N', email: 'user1@acmecorp.com' }
 [OIDC] Completing interaction with result: { ... }
 [OIDC] Login + consent flow completed
@@ -120,6 +121,6 @@ iss: http://localhost:4999
 [OIDC] Auto-granting consent for UID: AEUijAbFIAeYbvO99BLhzrYH40al_Vsq6NkgSgBbBo9
 [OIDC] Finding account for ID: user1
 oidc-provider NOTICE: default renderError function called, you SHOULD change it in order to customize the look of the error page.
-
+```
 
 - Consistent sessionId (6JwcXB3GW0PYf_hkpmW7W3cmyqhuxHxPKkmVXKNuy_q) but changing uid indicates a session state issue.
