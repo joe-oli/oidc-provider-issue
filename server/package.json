@@ -1,0 +1,16 @@
+{
+  "name": "oidc-server",
+  "version": "1.0.0",
+  "description": "OIDC provider server for AcmeCorp",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "oidc-provider": "^9.1.3"
+  },
+  "author": "",
+  "license": "MIT"
+}
